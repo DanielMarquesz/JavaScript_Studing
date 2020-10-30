@@ -35,10 +35,71 @@
 
 /*---- CONJUNTO DE DICIONÁRIO ----*/
 
-let pessoas = [
-    {nome:"Daniel", idade:23},
-    {nome:"Pedro", idade:22},
-    {nome:"Sofia", idade:18},
-    {nome:"Magda", saldo:454}
-]
-console.log(pessoas[3].saldo)                           // Acessando o item(propriedade) de um dicionário
+// let pessoas = [
+//     {nome:"Daniel", idade:23},
+//     {nome:"Pedro", idade:22},
+//     {nome:"Sofia", idade:18},
+//     {nome:"Magda", saldo:454}
+// ]
+// console.log(pessoas[3].saldo)                           // Acessando o item(propriedade) de um dicionário
+
+/*------------------------------- AULA 03 -------------------------------*/
+
+
+/*---- ESTRUTURAS CONDICIONAIS ----*/
+
+// var idade = prompt("Qual sua idade?")
+
+// if (idade >= 18){
+//     alert("Você é maior de idade!")
+//     alert("Sua idade é: " + idade)
+// }else {
+//     alert("você não é menor de idade!")
+//     alert("Sua idade é: " + idade)
+// }
+
+/*---- WHILE ----*/
+
+// // Lendo um Array de trás para Frente
+// var pessoas = ["João","Pedro","Anna"]
+// count = pessoas.length
+// alert(count)
+
+// while (true){
+    
+//     alert(pessoas[count -1] + "Deixou a Sala")
+//     --count
+
+//     if (count === 0){
+//         break
+//     }
+// }
+
+/*---- WHILE1 ----*/
+
+// var pessoas = ["Natália","Roberto","Carla","Alexandre"]
+
+// while (true){
+
+//     alert("O próximo da fila é: " + pessoas[pessoas.length -1])
+//     pessoas.pop()
+
+//     if (pessoas.length === 0){
+//         alert("A fila ficou vazia!")
+//         break
+//     }
+// }
+
+
+/*---- FOR LOOP ----*/
+
+// var count;
+// for (count = 0; count <= 5; count++){
+//     alert("O count vale: " + count);
+// };
+
+
+/*---- FUNÇÕES DATE ----*/
+
+var date = new Date() // Instânciação da Classe Date, permite a chamada de várias formatações de datas/anos/dias/horas
+alert(date.getHours())
