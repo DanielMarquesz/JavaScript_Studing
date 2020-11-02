@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Javascript</title>
+    <script type="text/javascript" src="javascript/main.js"></script>
+</head>
+<body onload="funcao()"> <!-- Ativa a função quandoa  página é carregada --> 
+    <form action="">
+        <div>
+            
+            <button type="button" value="Submit" onclick="validateNumber(this)">Click Me</button>       
+            <input type="text" placeholder="Digite Seu Nome!" id="texto" maxlength="12" autocomplete="off">
+            <h1 id="muda" onclick="redirect()">Insira Seu Nome Acima</h1>
+            <p id="move" onmouseover="muda(this)" onmouseout="volta(this)">Passe o mouse aqui</p>
+            <p id="move" onmouseover="muda(this)" onmouseout="volta(this)">Passe o mouse aqui também</p>
+        </div>
+        <div>
+            <select onchange="mudaNome(this)">
+                <optgroup label="Nomes">
+                    <option value="1">Maria</option>
+                    <option value="2">Estela</option>
+                    <option value="3">Madalena</option>
+                </optgroup>
+            </select>
+        </div>
+</form>
+</body>
+</html>
