@@ -1,0 +1,1 @@
+// Sempre declarar uma função antes de usar.
